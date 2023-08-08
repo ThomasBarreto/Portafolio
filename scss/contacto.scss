@@ -1,0 +1,111 @@
+header{
+    .button__back{
+        padding: 10px;
+        button{
+            cursor: pointer;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #212B49;
+            border: 2px solid white;
+            a{
+                color: white;
+            }
+            &:hover{
+                scale: 1.02;
+            }
+            .fa-file-arrow-left{
+                color: white;
+                font-size: 22px;
+                text-align: center;
+            }
+        }
+    }
+}
+main{
+    .container__contacto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:80vh;
+        background-color: #eff3f5;
+        .contacto__form{
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-direction: column;
+            background-image: linear-gradient(190deg, #6c79c6 0, #212a49 50%, #000000 100%);
+            width: 450px;
+            height: 400px;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 30px -2px black;
+            .titulo__contacto{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h1{
+                    font-size: 28px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    color: white;
+                }
+            }
+            .name__password{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                input{
+                    padding: 12px;
+                    width: 100%;
+                    height: 40px;
+                    background: none;
+                    border: 1px solid white;
+                    margin: 0px 2px;
+                    border-radius: 20px;
+                    color: white;
+                    &::placeholder{
+                        color: white;
+                        font-size: 14px;
+                        }
+                }
+            }
+            .mensaje{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                textarea{
+                    resize: none;
+                    padding: 12px;
+                    height: 120px;
+                    width: 100%;
+                    background: none; 
+                    border: 1px solid white;
+                    border-radius: 20px;
+                    overflow: hidden;
+                    color: white;
+                    &::placeholder{
+                        color: white;
+                        font-size: 14px;
+                        }
+                }
+            }
+            .contactbtn{
+                width: 100%;
+                height: 60px;
+                background:none;
+                border: 1px solid white;
+                border-radius: 15px;
+                color: white;
+                font-weight: 600;
+                font-size: 14px;
+                cursor: pointer;
+                &:hover{
+                    transform: scale(1.02);
+                }
+            }
+        }
+    }
+}

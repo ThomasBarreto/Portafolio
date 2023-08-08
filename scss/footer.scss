@@ -1,0 +1,59 @@
+footer{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    .footer__redes{
+        display: flex;
+        width: 100%;
+        justify-content:space-between;
+        align-items: center;
+        h3{
+            width: 250px;
+            text-align: center;
+            font-size: 20px;
+            padding: 20px;
+            color: #4ebcfc ;
+            span{
+                color: white;
+            }
+        }
+        .contacto{
+            width: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                color: white;
+                padding: 20px;
+                &:hover{
+                    scale: 1.1;
+                    color: #4ebcfc;
+                }
+                .fa-brands{
+                    font-size: 25px;
+                }
+            }
+        }
+        .subir{
+            width: 250px;
+            text-align: center;
+            padding: 20px;
+            a{
+                button{
+                    height: 40px;
+                    width: 40px;
+                    border: 2px solid white;
+                    border-radius: 50%;
+                    background-color: black;
+                    cursor: pointer;
+                    &:hover{
+                        scale: 1.1;
+                    }
+                    .fa-arrow-up{
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

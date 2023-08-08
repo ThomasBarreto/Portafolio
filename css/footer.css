@@ -1,0 +1,59 @@
+footer {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+}
+footer .footer__redes {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer__redes h3 {
+  width: 250px;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  color: #4ebcfc;
+}
+footer .footer__redes h3 span {
+  color: white;
+}
+footer .footer__redes .contacto {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer__redes .contacto a {
+  color: white;
+  padding: 20px;
+}
+footer .footer__redes .contacto a:hover {
+  scale: 1.1;
+  color: #4ebcfc;
+}
+footer .footer__redes .contacto a .fa-brands {
+  font-size: 25px;
+}
+footer .footer__redes .subir {
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+}
+footer .footer__redes .subir a button {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+footer .footer__redes .subir a button:hover {
+  scale: 1.1;
+}
+footer .footer__redes .subir a button .fa-arrow-up {
+  color: white;
+}
+
+/*# sourceMappingURL=footer.css.map */

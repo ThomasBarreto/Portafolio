@@ -1,0 +1,58 @@
+/*HEADER*/
+header{
+    display: flex;
+    align-items: center;
+    background-color: #212B49 ;
+    height: 10vh;
+    .navbar{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+            font-size: 20px;
+            padding: 20px;
+            color: #4ebcfc ;
+            span{
+                color: white;
+            }
+        }
+        .links{
+            width: 400px;
+            ul{
+                list-style: none;
+                display: flex;
+                justify-content:space-around;
+                align-items: center;
+                li{
+                    a{
+                        text-decoration: none;
+                        color: white;
+                        &:hover{
+                            font-weight: bold;
+                            scale: 1.01;
+                        }
+                    }
+                }
+            }
+        }
+        .btncontact{
+            padding: 20px;
+            button{
+                width: 120px;
+                height: 40px;
+                background-color:#212B49 ;
+                border: 1px dashed white;
+                &:hover{
+                    scale: 1.02;
+                    border: 1px dashed white;
+                }
+                a{
+                    color: white;
+                    font-weight: bold;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

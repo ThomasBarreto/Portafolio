@@ -1,0 +1,484 @@
+/*HEADER*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+header {
+  display: flex;
+  align-items: center;
+  background-color: #212B49;
+  height: 10vh;
+}
+header .navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar h3 {
+  font-size: 20px;
+  padding: 20px;
+  color: #4ebcfc;
+}
+header .navbar h3 span {
+  color: white;
+}
+header .navbar .links {
+  width: 400px;
+}
+header .navbar .links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .navbar .links ul li a {
+  text-decoration: none;
+  color: white;
+}
+header .navbar .links ul li a:hover {
+  font-weight: bold;
+  scale: 1.01;
+}
+header .navbar .btncontact {
+  padding: 20px;
+}
+header .navbar .btncontact button {
+  width: 120px;
+  height: 40px;
+  background-color: #212B49;
+  border: 1px dashed white;
+}
+header .navbar .btncontact button:hover {
+  scale: 1.02;
+  border: 1px dashed white;
+}
+header .navbar .btncontact button a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*MAIN INDEX*/
+main {
+  /*HOME*/
+  /*SOBRE MI*/
+  /*PROYECTOS*/
+}
+main .presentacion {
+  background-color: #212B49;
+  display: flex;
+  height: 90vh;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .presentacion .informacion {
+  width: 550px;
+}
+main .presentacion .informacion h1 {
+  font-size: 35px;
+  color: #4ebcfc;
+  padding: 10px;
+}
+main .presentacion .informacion p {
+  font-size: 14px;
+  color: white;
+  line-height: 25px;
+  padding: 10px;
+}
+main .presentacion .informacion .curriculum {
+  display: flex;
+  width: 250px;
+}
+main .presentacion .informacion .curriculum p {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+main .presentacion .informacion .curriculum a button {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #212B49;
+  border: 2px solid white;
+}
+main .presentacion .informacion .curriculum a button:hover {
+  scale: 1.1;
+}
+main .presentacion .informacion .curriculum a button .fa-file-arrow-down {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+main .presentacion .fotopersonal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .presentacion .fotopersonal img {
+  border: 2px solid #4ebcfc;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  opacity: 0.8;
+}
+main .presentacion .fotopersonal .redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 250px;
+  margin-left: 20px;
+}
+main .presentacion .fotopersonal .redes a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 40px;
+}
+main .presentacion .fotopersonal .redes a:hover {
+  scale: 1.1;
+  color: #4ebcfc;
+}
+main .section__sobremi {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+main .section__sobremi .container__lenguajes {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .section__sobremi .container__lenguajes .titulo__skills {
+  font-size: 35px;
+  padding: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+main .section__sobremi .container__lenguajes .lenguajes {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main .section__sobremi .container__lenguajes .lenguajes img {
+  width: 120px;
+  transition: 1s;
+}
+main .section__sobremi .container__lenguajes .lenguajes img:hover {
+  transform: rotateY(360deg);
+  cursor: pointer;
+}
+main .section__sobremi .separacion {
+  width: 5px;
+  height: 70vh;
+  background-color: black;
+}
+main .section__sobremi .aside__sobremi {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+main .section__sobremi .aside__sobremi .titulo__sobremi {
+  margin: 20px;
+}
+main .section__sobremi .aside__sobremi .titulo__sobremi h4 {
+  font-size: 35px;
+  padding: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+main .section__sobremi .aside__sobremi .sobremi__info {
+  width: 80%;
+}
+main .section__sobremi .aside__sobremi .sobremi__info h4 {
+  font-size: 35px;
+  padding: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+main .section__sobremi .aside__sobremi .sobremi__info p {
+  padding: 20px;
+  font-size: 14px;
+  line-height: 30px;
+}
+main .section__proyectos {
+  height: 90vh;
+  background-color: #212B49;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .section__proyectos h4 {
+  font-size: 35px;
+  padding: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+main .section__proyectos .proyectos {
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .section__proyectos .proyectos .container__card {
+  max-width: 1200px;
+  padding: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main .section__proyectos .proyectos .container__card .card {
+  width: 300px;
+  position: relative;
+  margin: 20px;
+  transition: all 300ms;
+  border-radius: 20px;
+}
+main .section__proyectos .proyectos .container__card .card:hover {
+  box-shadow: 1px 1px 20px -10px rgba(32, 32, 32, 0.2862745098);
+}
+main .section__proyectos .proyectos .container__card .card:hover .card-info {
+  margin-top: 0;
+}
+main .section__proyectos .proyectos .container__card .card:hover .card-img {
+  margin-top: -110px;
+}
+main .section__proyectos .proyectos .container__card .card .card-img {
+  width: 100%;
+  height: 220px;
+  background-color: #eff3f5;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  transition: all 400ms cubic-bezier(0.5, 0, 0, 1);
+}
+main .section__proyectos .proyectos .container__card .card .card-img img {
+  width: 150px;
+}
+main .section__proyectos .proyectos .container__card .card .card-info {
+  width: 100%;
+  height: 220px;
+  background-color: #eff3f5;
+  padding: 20px;
+  margin-top: -220px;
+  transition: all 400ms cubic-bezier(0.5, 0, 0, 1);
+}
+main .section__proyectos .proyectos .container__card .card .card-info p {
+  font-size: 14px;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: box;
+  -webkit-box-orient: vertical;
+  box-orient: vertical;
+  -webkit-line-clamp: 5;
+  line-clamp: 5;
+  overflow: hidden;
+}
+main .section__proyectos .proyectos .container__card .card .card-info input {
+  margin-top: 20px;
+  padding: 10px 40px;
+  background-color: #4ebcfc;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 1px 1px 30px 1px rgba(32, 32, 32, 0.2862745098);
+  transition: box-shadow 300ms;
+}
+main .section__proyectos .proyectos .container__card .card .card-info input:hover {
+  box-shadow: 1px 1px 30px 1px rgba(32, 32, 32, 0.4392156863);
+}
+
+footer {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+}
+footer .footer__redes {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footer__redes h3 {
+  width: 250px;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  color: #4ebcfc;
+}
+footer .footer__redes h3 span {
+  color: white;
+}
+footer .footer__redes .contacto {
+  width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .footer__redes .contacto a {
+  color: white;
+  padding: 20px;
+}
+footer .footer__redes .contacto a:hover {
+  scale: 1.1;
+  color: #4ebcfc;
+}
+footer .footer__redes .contacto a .fa-brands {
+  font-size: 25px;
+}
+footer .footer__redes .subir {
+  width: 250px;
+  text-align: center;
+  padding: 20px;
+}
+footer .footer__redes .subir a button {
+  height: 40px;
+  width: 40px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background-color: black;
+  cursor: pointer;
+}
+footer .footer__redes .subir a button:hover {
+  scale: 1.1;
+}
+footer .footer__redes .subir a button .fa-arrow-up {
+  color: white;
+}
+
+header .button__back {
+  padding: 10px;
+}
+header .button__back button {
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #212B49;
+  border: 2px solid white;
+}
+header .button__back button a {
+  color: white;
+}
+header .button__back button:hover {
+  scale: 1.02;
+}
+header .button__back button .fa-file-arrow-left {
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+main .container__contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  background-color: #eff3f5;
+}
+main .container__contacto .contacto__form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  background-image: linear-gradient(190deg, #6c79c6 0, #212a49 50%, #000000 100%);
+  width: 450px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 30px -2px black;
+}
+main .container__contacto .contacto__form .titulo__contacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .container__contacto .contacto__form .titulo__contacto h1 {
+  font-size: 28px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+main .container__contacto .contacto__form .name__password {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+main .container__contacto .contacto__form .name__password input {
+  padding: 12px;
+  width: 100%;
+  height: 40px;
+  background: none;
+  border: 1px solid white;
+  margin: 0px 2px;
+  border-radius: 20px;
+  color: white;
+}
+main .container__contacto .contacto__form .name__password input::placeholder {
+  color: white;
+  font-size: 14px;
+}
+main .container__contacto .contacto__form .mensaje {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+main .container__contacto .contacto__form .mensaje textarea {
+  resize: none;
+  padding: 12px;
+  height: 120px;
+  width: 100%;
+  background: none;
+  border: 1px solid white;
+  border-radius: 20px;
+  overflow: hidden;
+  color: white;
+}
+main .container__contacto .contacto__form .mensaje textarea::placeholder {
+  color: white;
+  font-size: 14px;
+}
+main .container__contacto .contacto__form .contactbtn {
+  width: 100%;
+  height: 60px;
+  background: none;
+  border: 1px solid white;
+  border-radius: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+main .container__contacto .contacto__form .contactbtn:hover {
+  transform: scale(1.02);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins";
+}
+
+/*# sourceMappingURL=estilos.css.map */

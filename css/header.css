@@ -1,0 +1,58 @@
+/*HEADER*/
+header {
+  display: flex;
+  align-items: center;
+  background-color: #212B49;
+  height: 10vh;
+}
+header .navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+header .navbar h3 {
+  font-size: 20px;
+  padding: 20px;
+  color: #4ebcfc;
+}
+header .navbar h3 span {
+  color: white;
+}
+header .navbar .links {
+  width: 400px;
+}
+header .navbar .links ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header .navbar .links ul li a {
+  text-decoration: none;
+  color: white;
+}
+header .navbar .links ul li a:hover {
+  font-weight: bold;
+  scale: 1.01;
+}
+header .navbar .btncontact {
+  padding: 20px;
+}
+header .navbar .btncontact button {
+  width: 120px;
+  height: 40px;
+  background-color: #212B49;
+  border: 1px dashed white;
+}
+header .navbar .btncontact button:hover {
+  scale: 1.02;
+  border: 1px dashed white;
+}
+header .navbar .btncontact button a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=header.css.map */
